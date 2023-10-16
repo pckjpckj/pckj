@@ -38,18 +38,18 @@ const Footer = () => {
         ) : (
           <div className='custom-footer'>
             <a
-              href='https://github.com/songquanpeng/one-api'
+              href='https://api.pckjgpt.icu'
               target='_blank'
             >
-              {systemName} {process.env.REACT_APP_VERSION}{' '}
+             {/* 删除或注释掉这一行：{systemName} {process.env.REACT_APP_VERSION}{' '} */}
             </a>
-            由{' '}
-            <a href='https://github.com/songquanpeng' target='_blank'>
-              JustSong
+            {' '}
+            <a href='https://api.pckjgpt.icu' target='_blank'>
+              
             </a>{' '}
-            构建，源代码遵循{' '}
-            <a href='https://opensource.org/licenses/mit-license.php'>
-              MIT 协议
+            品创科技科技工作室{' '}
+            <a href='https://api.pckjgpt.icu'>
+             
             </a>
           </div>
         )}
